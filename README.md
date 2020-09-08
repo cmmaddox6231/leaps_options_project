@@ -7,3 +7,6 @@ The webapp contains 3 major sections consisting of finding Under/Overvalued comp
 The second section of the app is the Trend Finder page. This page is designed to find trending companies over the past 6 days with a minimum of a 9% weekly increase. If the stock has 6 consecutive days of a 9% weekly increase, it will be detected by the Trend Finder. These companies can then be compared with a SMA and EMA, interactive charts, and a fundamental analysis to determine if the trend will or will not continue. This also flows nicely with the undervalued company finder since these companies will likley also have a bullish/bearish trend. 
 
 The last section is just an individual stock analyzer. Simply put in the ticker of the stock desired and find a chart and fundamental analysis of it. This page is great for further analysis of a stock after finding it on a previous tab. 
+
+
+The download_fin_data file is a bot that downloads financial data and uploads it to a MongoDB server (NoSQL Database). It runs daily at 8pm to get the most recent stock information. 
